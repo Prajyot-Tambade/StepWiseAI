@@ -1,8 +1,7 @@
-function App() {
+import Approuter from './router/AppRouter';
 
-  return (
-    <h1 className="text-center">StepWiseAI</h1>
-  )
-}
+const App = () => {
+	return <Approuter />;
+};
 
-export default App
+export default App;
