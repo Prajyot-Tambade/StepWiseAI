@@ -1,6 +1,7 @@
 import React from 'react'
 import RouteLayout from "../layout/RootLayout"
 import { createBrowserRouter, createRoutesFromElements, RouterProvider, Route } from "react-router-dom"
+import Home from '../pages/Home'
 
 const Approutes = () => {
 
@@ -9,7 +10,7 @@ const Approutes = () => {
     createRoutesFromElements(
 
       <Route path="/" element={<RouteLayout />} >
-        <Route index element={<h1 className="text-center">StepWiseAI</h1>} />
+        <Route index element={<Home />} />
       </Route>
       
     )
